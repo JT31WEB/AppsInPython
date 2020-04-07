@@ -1,0 +1,17 @@
+An important requirement for components is that they are
+reusable; that is, that they should be applicable in contexts
+other than the one in which they have been developed. Gen-
+erally, one requires that component reuse should be possible
+without modi?ying a component's source code. Such mod-
+i?cations are undesirable because they have a tendency to
+create versioning problems. For instance, a version con?ict
+might arise between an adaptation of a component in some
+client application and a newer version of the original compo-
+nent. Often, one goes even further in requiring that compo-
+nents are distributed and deployed only in binary form [43].
+To enable safe reuse, a component needs to have interfaces
+for provided as well as for required services through which
+interactions with other components occur. To enable ?exible
+reuse in new contexts, a component should also minimize
+?hard links? to speci?c other components which it requires
+for its functioning.

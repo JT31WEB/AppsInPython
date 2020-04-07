@@ -1,0 +1,2 @@
+PriceOfDrink =(Item1 * 1.2) + (Item2 * .) + (Item3 * 30) + (Item4 * 10) + (Item5 * 35) + (Item6 * 30) + (Item7 * 10) + (Item8 * 35)
+PriceOfCakes =(Item9 * 15) + (Item10 * 25) + (Item11 * 30) + (Item12 * 10) + (Item13 * 35) + (Item14 * 30) + (Item15 * 10) + (Item16 * 35)
