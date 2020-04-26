@@ -179,7 +179,7 @@ def getTotal():
 def chkButton_value():
 	if (var1.get() == 1):
 		txtlatte.configure(state = NORMAL)
-		txtlatte.configure(background= "powder blue")      #change box color
+		txtlatte.configure(background= "powder blue")     #change box color
 	elif (var1.get() == 0):
 		txtlatte.configure(state = DISABLED)
 		E_latte.set("0")                                     #put 'INT' in for calculation

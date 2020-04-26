@@ -1,5 +1,9 @@
 from tkinter import*
 
+cal = Tk()
+cal.title("Calculator")
+cal.geometry("360x490+0+0")
+
 def btnClick(numbers):
 	global operator
 	operator=operator + str(numbers)
@@ -16,8 +20,7 @@ def btnEqualsInput():
 	text_Input.set(sumUp)
 	operator=""
 
-cal = Tk()
-cal.title("Calculator")
+
 operator=""
 text_Input =StringVar()
 

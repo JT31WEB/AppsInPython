@@ -1,1 +1,6 @@
 \VOICE
+*.exe
+*.db
+*\dist
+*\build
+*\__pycache__

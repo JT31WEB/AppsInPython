@@ -1,8 +1,10 @@
+from tkinter import *
 import tkinter as tk
 import win32com.client
 
-class Application (tk.frame):
-	def read(self):
+class Application:
+	def read(self, root):
+		self.root = root
 		print("reading..")
 		speaker = win32com.client.Dispatch("SAPI.SpVoice")
 		file = open("text_speech.txt", "r")
@@ -18,7 +20,7 @@ class Application (tk.frame):
 		self.start.pack(side="left")
 
 
-	def __init__(self, master=none):
+	def __init__(self):
 		super().__init__(master)
 		self.master = master
 		self.pack()
